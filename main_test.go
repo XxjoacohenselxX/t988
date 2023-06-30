@@ -11,17 +11,17 @@ func TestValidar(t *testing.T) {
 	}
 
 	result = buscarMaximo(array1)
-	if result != 3 {
+	if result != 988 {
 		t.Errorf("Fallo test, se obtuvo: %d, se esperaba: %d.", result, 988)
 	}
 
 	resultFloat := calcularPromedio(array1)
-	if resultFloat != 3 {
+	if resultFloat != 307.8 {
 		t.Errorf("Fallo test, se obtuvo: %f, se esperaba: %f.", resultFloat, 307.8)
 	}
 
 	resultFloat = calcularSumatoria(array1)
-	if resultFloat != 3 {
+	if resultFloat != 3078.0 {
 		t.Errorf("Fallo test, se obtuvo: %f, se esperaba: %f.", resultFloat, 3078.0)
 	}
 }
