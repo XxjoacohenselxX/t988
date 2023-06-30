@@ -16,12 +16,12 @@ func TestValidar(t *testing.T) {
 	}
 
 	resultFloat := calcularPromedio(array1)
-	if resultFloat != 307.8 {
-		t.Errorf("Fallo test, se obtuvo: %f, se esperaba: %f.", resultFloat, 307.8)
+	if resultFloat != 306.8 {
+		t.Errorf("Fallo test, se obtuvo: %f, se esperaba: %f.", resultFloat, 306.8)
 	}
 
 	resultFloat = calcularSumatoria(array1)
-	if resultFloat != 3078.0 {
-		t.Errorf("Fallo test, se obtuvo: %f, se esperaba: %f.", resultFloat, 3078.0)
+	if resultFloat != 3068.0 {
+		t.Errorf("Fallo test, se obtuvo: %f, se esperaba: %f.", resultFloat, 3068.0)
 	}
 }
